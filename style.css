@@ -22,13 +22,27 @@ color: #332828;
 text-align: center;
 }
 
+dog {
+float: left;
+width: 200px;
+}
 
-.container { position:relative; padding:0 0 0 55px; }
+
+img {
+float: left;	
+}
+.container { position:relative; }
 #sidebar {
     position:absolute;
     top:0; bottom:0; left:0;
     width:50px;
     background:#000;
+    text-align: center	
+
+}
+
+.clearfix {
+  overflow: auto;
 }
 
 #header { border:1px solid #000; width:100px; height:20px; 
